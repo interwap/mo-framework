@@ -320,5 +320,3 @@ class Password
 		return $hash == $stored_hash;
 	}
 }
-
-?>

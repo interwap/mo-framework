@@ -2,7 +2,7 @@
 Simple but powerful MVC PHP Framework
 
 ## What is the Mo Framework?
-Mo Framework is a PHP 5.6 MVC system. It's a basic but complete implementation of the Model-View-Controller (MVC) architecture designed to be lightweight and modular, allowing developers to build better and easy to maintain code with PHP.
+Mo Framework is a PHP 7 MVC system. It's a basic but complete implementation of the Model-View-Controller (MVC) architecture designed to be lightweight and modular, allowing developers to build better and easy to maintain code with PHP.
 
 The Mo framework comes installed with Twig; a modern template engine for PHP
 
@@ -27,8 +27,14 @@ Installing in a sub-directory, will require changing DocumentRoot configuration 
 
 - Code organised into Models, Views and Controllers
 - Advanced router
-- Classes in namespaces with autloading
+- Classes in namespaces with autoloading
 - Controllers with action filtlers
 - Views including template engine (Twig)
 - Models with resouce-friendly database connectivity
 - Environment-specific configuration and error handling
+
+#### Whats New? (Version 1.1)
+- PHP 7 Compartibility (Recommended)
+- Advanced Helper Classes
+- Advanced Session Handler
+- Data Encryption

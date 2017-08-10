@@ -210,7 +210,8 @@ class Router
 	* 
 	* @return string The request URL
 	*/
-	protected function getNamespace(){
+	protected function getNamespace()
+	{
 
 		$namespace = 'App\Controllers\\';
 
@@ -221,5 +222,3 @@ class Router
 		return $namespace;
 	}
 }
-
-?>

@@ -90,6 +90,3 @@ abstract class Controller
 	{
 	}
 }
-
-
-?>
