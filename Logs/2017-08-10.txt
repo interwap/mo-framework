@@ -1,0 +1,35 @@
+[10-Aug-2017 16:56:54 Africa/Accra] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'your_database''
+Stack trace: #0 C:\xampp\htdocs\moframework\Core\Model.php(106): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\moframework\Core\Model.php(87): Core\Model->get_connection()
+#2 C:\xampp\htdocs\moframework\App\Controllers\Home.php(23): Core\Model->__construct()
+#3 C:\xampp\htdocs\moframework\Core\Controller.php(66): App\Controllers\Home->before()
+#4 C:\xampp\htdocs\moframework\Core\Router.php(146): Core\Controller->__call('index', Array)
+#5 C:\xampp\htdocs\moframework\public\index.php(85): Core\Router->dispatch('home/index')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\moframework\Core\Model.php' on line 106
+[10-Aug-2017 16:59:12 Africa/Accra] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'your_database''
+Stack trace: #0 C:\xampp\htdocs\moframework\Core\Model.php(106): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\moframework\Core\Model.php(87): Core\Model->get_connection()
+#2 C:\xampp\htdocs\moframework\App\Controllers\Home.php(23): Core\Model->__construct()
+#3 C:\xampp\htdocs\moframework\Core\Controller.php(66): App\Controllers\Home->before()
+#4 C:\xampp\htdocs\moframework\Core\Router.php(146): Core\Controller->__call('index', Array)
+#5 C:\xampp\htdocs\moframework\public\index.php(85): Core\Router->dispatch('home/index')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\moframework\Core\Model.php' on line 106
+[10-Aug-2017 19:00:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\moframework\public\index.php(85): Core\Router->dispatch('home/index/sna')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\moframework\Core\Router.php' on line 154
+[10-Aug-2017 18:21:40 Africa/Accra] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'your_database''
+Stack trace: #0 C:\xampp\htdocs\moframework\Core\Model.php(106): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\moframework\Core\Model.php(87): Core\Model->get_connection()
+#2 C:\xampp\htdocs\moframework\App\Controllers\Home.php(23): Core\Model->__construct()
+#3 C:\xampp\htdocs\moframework\Core\Controller.php(66): App\Controllers\Home->before()
+#4 C:\xampp\htdocs\moframework\Core\Router.php(146): Core\Controller->__call('index', Array)
+#5 C:\xampp\htdocs\moframework\public\index.php(85): Core\Router->dispatch('')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\moframework\Core\Model.php' on line 106
+[10-Aug-2017 20:21:40 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\moframework\public\index.php(85): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\moframework\Core\Router.php' on line 154

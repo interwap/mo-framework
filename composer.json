@@ -1,0 +1,6 @@
+{
+    "name": "hp/psyrine",
+    "require": {
+        "twig/twig": "^2.4"
+    }
+}
